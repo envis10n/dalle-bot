@@ -1,5 +1,5 @@
 import { Client, MessageAttachment } from "discord.js";
-import { GatewayIntentBits, Snowflake } from "discord-api-types/v10";
+import { GatewayIntentBits } from "discord-api-types/v10";
 import {DISCORD_TOKEN, DALLE_BACKEND} from "./config";
 import axios from "axios";
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.MessageContent] });
